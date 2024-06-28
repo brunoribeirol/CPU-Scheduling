@@ -31,7 +31,7 @@
 
 This project implements a real-time process scheduling simulator using the Rate-Monotonic (rate) and Earliest-Deadline-First (edf) algorithms for scheduling strategies. The program reads a set of tasks as input. Then it simulates the execution of these tasks in a real-time environment, following either the `rate` or `edf` scheduling algorithms.
 
-## 📬 Input File Format
+## 📝 Input File Format
 
 The input file should have the following format:
 
@@ -50,7 +50,7 @@ The input file should have the following format:
 - `[CPU BURST i]`: CPU burst time for the i-th task.
   - Should be an integer               
 
-## 🪛 Build Instructions
+## 🛠️ Build Instructions
 
 1. Ensure you are on a Linux, Unix, or macOS system.
 2. Compile using `make` with the desired algorithm name as a parameter:
@@ -59,7 +59,7 @@ The input file should have the following format:
    - Earliest-Deadline-First:
      - `make edf`
    
-## 📎Execution
+## ⚙️ Execution
 
 Run the compiled executable with the input file:
 - For Rate-Monotonic:
@@ -68,7 +68,7 @@ Run the compiled executable with the input file:
   - `./edf [input_file]`
 
 <!--
-## 📜 Specifications and Notes
+## 📋 Specifications and Notes
 
 1. The program is written in C and compiled using a Makefile.
 3. Input files must not have a blank line at the end, and each line must not have extra spaces between task parameters.
@@ -80,7 +80,7 @@ Run the compiled executable with the input file:
 12. Priority calculation for rate and edf algorithms is based on the specified task period as the deadline.
 -->
 
-## 📩 Example Input
+## 📥 Example Input
 
 For example, given an input file named `input.txt` with the following content:
 
@@ -88,7 +88,7 @@ For example, given an input file named `input.txt` with the following content:
     T1 50 25
     T2 80 35
 
-## 📦 Output File
+## 📤 Output File
 
 The output file should be names as `algorithm.out`, where `algorithm` is the schedulling strategy addopted (`rate` or `edf`). The format follows strict guidelines as provided in the assignment.
 
