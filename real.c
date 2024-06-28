@@ -1,6 +1,25 @@
+/*
+    Project: CPU Scheduling Simulation
+    Description: Simulates CPU scheduling using Rate-Monotonic and Earliest-Deadline-First
+                 algorithms to manage the execution order of processes.
+
+    File: real.c
+    Author: Bruno Ribeiro
+    Contact: Bruno Ribeiro <brlla@cesar.school>
+    Organization: CESAR School
+
+    Creation Date: 03/28/2024
+    Last Updated: 06/28/2024
+    License: MIT License
+
+    Notes: This module is part of a larger system intended to demonstrate advanced
+           concepts in operating system design and CPU scheduling techniques.
+*/
+
 #include <stdio.h>
 #include <string.h>
 
+// Data Structures
 typedef struct
 {
     char name[100];
