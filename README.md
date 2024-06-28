@@ -67,6 +67,7 @@ Run the compiled executable with the input file:
 - For Earliest-Deadline-First:
   - `./edf [input_file]`
 
+<!--
 ## 📜 Specifications and Notes
 
 1. The program is written in C and compiled using a Makefile.
@@ -77,6 +78,7 @@ Run the compiled executable with the input file:
 9. Tasks arriving exactly at the simulation end are marked as KILLED.
 11. Zero CPU bursts or missed tasks with zero execution units do not need to be displayed.
 12. Priority calculation for rate and edf algorithms is based on the specified task period as the deadline.
+-->
 
 ## 📩 Example Input
 
