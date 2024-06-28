@@ -111,11 +111,11 @@ The output file should be names as `algorithm.out`, where `algorithm` is the sch
     [T2] 1
 
 ## 👨‍👩‍👧‍👦 Contributors
-  
-<a href="https://github.com/brunoribeirol/CPU-Scheduling/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=/brunoribeirol/CPU-Scheduling" />
-</a>
+
+[![Contributors](https://contrib.rocks/image?repo=brunoribeirol/CPU-Scheduling)](https://github.com/brunoribeirol/CPU-Scheduling/graphs/contributors)
+
 
 ## ⚖️ License
 
 [MIT](https://github.com//brunoribeirol/CPU-Scheduling/blob/master/LICENSE)
+
