@@ -111,3 +111,42 @@ The output file should be names as `algorithm.out`, where `algorithm` is the sch
     KILLED
     [T1] 1
     [T2] 1
+
+### 🧪 Test Instructions
+
+- First, ensure the file has execution permissions. You can do this with the `chmod` command:
+  - `chmod +x test.sh`
+- Then you need to run the `make` commands to generate the executables:
+  - `make rate`
+  - `make edf`  
+- After that, you can run the script with the command: 
+  - `./test.sh all` -> if you want to run all tests
+  - `./rate tests/rate/input/[number_of_test].txt` -> if you want to run a specific test
+    - `./rate tests/rate/input/04.txt`
+  - `./edf tests/edf/input/[number_of_test].txt` -> if you want to run a specific test
+    - `./edf tests/edf/input/12.txt`
+- The folder should be organized as follows:
+  ```
+  .
+  ├── Makefile
+  ├── real.c
+  ├── edf
+  ├── rate
+  ├── test.sh
+  ├── tests
+  │   ├── edf
+  │   │   ├── input
+  │   │   │   ├── 01.txt
+  │   │   │   ├── N.txt
+  │   │   ├── out
+  │   │   │   ├── 01.txt
+  │   │   │   ├── N.txt
+  │   ├── rate
+  │   │   ├── input
+  │   │   │   ├── 01.txt
+  │   │   │   ├── N.txt
+  │   │   ├── out
+  │   │   │   ├── 01.txt
+  │   │   │   ├── N.txt
+  
+  ```
