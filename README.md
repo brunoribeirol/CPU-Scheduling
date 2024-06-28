@@ -109,13 +109,3 @@ The output file should be names as `algorithm.out`, where `algorithm` is the sch
     KILLED
     [T1] 1
     [T2] 1
-
-## 👨‍👩‍👧‍👦 Contributors
-
-[![Contributors](https://contrib.rocks/image?repo=brunoribeirol/CPU-Scheduling)](https://github.com/brunoribeirol/CPU-Scheduling/graphs/contributors)
-
-
-## ⚖️ License
-
-[MIT](https://github.com//brunoribeirol/CPU-Scheduling/blob/master/LICENSE)
-
