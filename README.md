@@ -55,17 +55,25 @@ The input file should have the following format:
 1. Ensure you are on a Linux, Unix, or macOS system.
 2. Compile using `make` with the desired algorithm name as a parameter:
    - Rate-Monotonic:
-     - `make rate`
+      ```bash
+      make rate
+      ```
    - Earliest-Deadline-First:
-     - `make edf`
+      ```bash
+      make edf
+      ```
    
 ## ⚙️ Execution
 
 Run the compiled executable with the input file:
 - For Rate-Monotonic:
-  - `./rate [input_file]`
+   ```bash
+   ./rate [input_file]
+   ```
 - For Earliest-Deadline-First:
-  - `./edf [input_file]`
+   ```bash
+   ./edf [input_file]
+   ```
 
 <!--
 ## 📋 Specifications and Notes
@@ -115,16 +123,33 @@ The output file should be names as `algorithm.out`, where `algorithm` is the sch
 ### 🧪 Test Instructions
 
 - First, ensure the file has execution permissions. You can do this with the `chmod` command:
-  - `chmod +x test.sh`
+   ```bash
+   chmod +x test.sh
+   ```
 - Then you need to run the `make` commands to generate the executables:
-  - `make rate`
-  - `make edf`  
-- After that, you can run the script with the command: 
-  - `./test.sh all` -> if you want to run all tests
-  - `./rate tests/rate/input/[number_of_test].txt` -> if you want to run a specific test
-    - `./rate tests/rate/input/04.txt`
-  - `./edf tests/edf/input/[number_of_test].txt` -> if you want to run a specific test
-    - `./edf tests/edf/input/12.txt`
+   ```bash
+   make rate
+   ```
+   
+    ```bash
+    make edf
+   ```
+- After that, you can run the script with the command:
+  - If you want to run all tests:
+     ```bash
+     ./test.sh all
+     ```
+  - If you want to run a specific test:
+    - `./rate tests/rate/input/[number_of_test].txt` 
+        ```bash
+        ./rate tests/rate/input/04.txt
+        ```
+      
+    - `./edf tests/edf/input/[number_of_test].txt`
+        ```bash
+        ./edf tests/edf/input/12.txt
+        ```
+      
 - The folder should be organized as follows:
   ```
   .
