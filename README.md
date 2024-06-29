@@ -148,8 +148,7 @@ The output file should be names as `algorithm.out`, where `algorithm` is the sch
     - `./edf tests/edf/input/[number_of_test].txt`
         ```bash
         ./edf tests/edf/input/12.txt
-        ```
-      
+        ```    
 - The folder should be organized as follows:
   ```
   .
